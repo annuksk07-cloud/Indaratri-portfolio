@@ -92,6 +92,13 @@ export default function Services() {
   };
 
   const handleSendEnquiry = () => {
+    const selectedServiceNames = cart.map(id => servicesData.find(s => s.id === id)?.name).filter(Boolean);
+    
+    // Dispatch custom event
+    window.dispatchEvent(new CustomEvent('cart-enquiry', { 
+      detail: { services: selectedServiceNames } 
+    }));
+
     setIsCartOpen(false);
     const contactSection = document.getElementById('contact');
     if (contactSection) {

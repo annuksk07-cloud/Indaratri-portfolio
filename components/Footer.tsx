@@ -20,7 +20,7 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a 
-              href="https://www.instagram.com/indaratri7" 
+              href="https://www.instagram.com/indaratri.kreations" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted hover:text-pink transition-colors p-2 rounded-full hover:bg-white/5"

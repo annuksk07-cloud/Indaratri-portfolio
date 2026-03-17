@@ -14,6 +14,7 @@ const servicesList = [
 export default function Contact() {
   const [isSuccess, setIsSuccess] = useState(false);
   const [selectedService, setSelectedService] = useState('');
+  const [message, setMessage] = useState('');
   
   const sectionRef = useRef<HTMLElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
@@ -26,6 +27,20 @@ export default function Contact() {
     if (serviceParam && servicesList.includes(serviceParam)) {
       setSelectedService(serviceParam);
     }
+  }, []);
+
+  useEffect(() => {
+    const handleCartEnquiry = (e: any) => {
+      const services = e.detail.services as string[];
+      if (services.length > 0) {
+        setSelectedService(services[0]);
+        const messageText = `I am interested in the following services:\n\n${services.map(s => `- ${s}`).join('\n')}`;
+        setMessage(messageText);
+      }
+    };
+
+    window.addEventListener('cart-enquiry', handleCartEnquiry);
+    return () => window.removeEventListener('cart-enquiry', handleCartEnquiry);
   }, []);
 
   useEffect(() => {
@@ -154,7 +169,7 @@ export default function Contact() {
           
           <div className="flex items-center justify-center gap-6">
             <a 
-              href="https://www.instagram.com/indaratri7" 
+              href="https://www.instagram.com/indaratri.kreations" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted hover:text-pink transition-colors p-3 rounded-full hover:bg-white/5 border border-white/10"
@@ -230,6 +245,8 @@ export default function Contact() {
                 rows={4}
                 className="w-full bg-bg/50 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-purple focus:ring-1 focus:ring-purple transition-all resize-none"
                 placeholder="Tell me about your project..."
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
               />
             </div>
 

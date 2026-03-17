@@ -84,7 +84,7 @@ export default function Hero() {
 
           <div ref={socialRef} className="mt-16 flex items-center gap-6">
             <a 
-              href="https://www.instagram.com/indaratri7" 
+              href="https://www.instagram.com/indaratri.kreations" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted hover:text-pink transition-colors p-2 rounded-full hover:bg-white/5"
