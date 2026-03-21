@@ -159,6 +159,16 @@ export default function Services() {
                     </span>
                     <h3 className="text-xl font-bold mb-2">{service.name}</h3>
                     <p className="text-muted text-sm">{service.desc}</p>
+                    {service.id === 'p1' && (
+                      <a 
+                        href="https://drive.google.com/file/d/1udDzBXgqwxA4p94pjw2vcaVyti3K248p/view?usp=drivesdk"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2 mt-4 rounded-lg border border-white/10 text-muted hover:border-white/30 hover:text-white transition-all duration-300 font-mono text-[10px] uppercase tracking-widest"
+                      >
+                        View Sample →
+                      </a>
+                    )}
                   </div>
                   
                   <div className="mt-auto pt-6">
