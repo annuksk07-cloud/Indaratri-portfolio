@@ -32,7 +32,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         <Link href="/" className="text-2xl font-serif italic font-bold text-gradient tracking-wide">
-          Indaratri
+          Indratree
         </Link>
 
         {/* Desktop Nav */}

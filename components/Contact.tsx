@@ -169,7 +169,7 @@ export default function Contact() {
           
           <div className="flex items-center justify-center gap-6">
             <a 
-              href="https://www.instagram.com/indaratri.kreations" 
+              href="https://www.instagram.com/indratree.kreations" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted hover:text-pink transition-colors p-3 rounded-full hover:bg-white/5 border border-white/10"
@@ -178,7 +178,7 @@ export default function Contact() {
               <span className="sr-only">Instagram</span>
             </a>
             <a 
-              href="https://www.linkedin.com/in/indaratri-kumari-8675123b4" 
+              href="https://www.linkedin.com/in/indratree-kumari-8675123b4" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted hover:text-purple transition-colors p-3 rounded-full hover:bg-white/5 border border-white/10"

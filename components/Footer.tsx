@@ -9,7 +9,7 @@ export default function Footer() {
           
           {/* Logo */}
           <Link href="/" className="text-2xl font-serif italic font-bold text-gradient tracking-wide">
-            Indaratri
+            Indratree
           </Link>
 
           {/* Center Text */}
@@ -20,7 +20,7 @@ export default function Footer() {
           {/* Social Links */}
           <div className="flex items-center gap-4">
             <a 
-              href="https://www.instagram.com/indaratri.kreations" 
+              href="https://www.instagram.com/indratree.kreations" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted hover:text-pink transition-colors p-2 rounded-full hover:bg-white/5"
@@ -29,7 +29,7 @@ export default function Footer() {
               <span className="sr-only">Instagram</span>
             </a>
             <a 
-              href="https://www.linkedin.com/in/indaratri-kumari-8675123b4" 
+              href="https://www.linkedin.com/in/indratree-kumari-8675123b4" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted hover:text-purple transition-colors p-2 rounded-full hover:bg-white/5"
@@ -43,7 +43,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="text-center pt-8 border-t border-white/5">
           <p className="font-mono text-[10px] text-muted/50 uppercase tracking-widest">
-            © 2025 Indaratri. All rights reserved.
+            © 2025 Indratree. All rights reserved.
           </p>
         </div>
       </div>

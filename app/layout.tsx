@@ -21,8 +21,8 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Indaratri | Creative Designer & AI Specialist',
-  description: 'Portfolio of Indaratri, a freelance designer and AI creative specialist based in India.',
+  title: 'Indratree | Creative Designer & AI Specialist',
+  description: 'Portfolio of Indratree, a freelance designer and AI creative specialist based in India.',
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {

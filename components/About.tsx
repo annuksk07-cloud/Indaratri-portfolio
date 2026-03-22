@@ -88,7 +88,7 @@ export default function About() {
           <div ref={leftColRef} className="space-y-8">
             <h2 className="font-serif text-4xl md:text-6xl leading-tight">
               <span className="font-light">Hello, I&apos;m</span> <br />
-              <span className="font-bold italic text-gradient">Indaratri.</span>
+              <span className="font-bold italic text-gradient">Indratree.</span>
             </h2>
             
             <div className="space-y-6 text-lg text-muted font-light leading-relaxed">
