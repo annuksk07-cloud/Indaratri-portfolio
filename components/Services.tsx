@@ -23,7 +23,7 @@ const servicesData = [
   { id: 'w2', category: 'Web & App', name: 'Landing Page Design', desc: 'Full page, Figma or HTML/CSS' },
   { id: 'w3', category: 'Web & App', name: 'App Wireframe', desc: 'Structured flow, low to mid fidelity' },
   
-  { id: 'c1', category: 'Campaigns & AI', name: 'Ready-to-Post Social Media Campaign', desc: 'Brand analyzed → posts + banners + video + copy' },
+  { id: 'c1', category: 'Campaigns & AI', name: 'AI Campion', desc: 'Brand analyzed → posts + banners + video + copy. Client just uploads.' },
   { id: 'c2', category: 'Campaigns & AI', name: 'AI Product Ad Video', desc: '15–30 sec AI-generated video' },
   { id: 'c3', category: 'Campaigns & AI', name: 'Monthly Content Pack', desc: '10 posts + copy, ongoing retainer' },
   { id: 'c4', category: 'Campaigns & AI', name: 'Ad Copywriting', desc: '3 persuasive ad copy variations' },
@@ -159,6 +159,26 @@ export default function Services() {
                     </span>
                     <h3 className="text-xl font-bold mb-2">{service.name}</h3>
                     <p className="text-muted text-sm">{service.desc}</p>
+                    {service.id === 'c1' && (
+                      <a 
+                        href="https://drive.google.com/drive/folders/1tGHWWTEXcOE-OGPysp1VOlZJMfejVd2k" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="mt-4 w-full flex items-center justify-center gap-2 py-3 rounded-xl font-mono text-xs uppercase tracking-widest transition-all duration-300 bg-white/5 text-white hover:bg-white/10 border border-white/10 hover:border-white/30"
+                      >
+                        AI Campion →
+                      </a>
+                    )}
+                    {service.id === 'p1' && (
+                      <a 
+                        href="https://drive.google.com/file/d/1zcc-LI0HMx-JyqfgJLt6InZYTTnG2sVv/view?usp=drivesdk" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="mt-4 w-full flex items-center justify-center gap-2 py-3 rounded-xl font-mono text-xs uppercase tracking-widest transition-all duration-300 bg-white/5 text-white hover:bg-white/10 border border-white/10 hover:border-white/30"
+                      >
+                        AI Deck Studio →
+                      </a>
+                    )}
                   </div>
                   
                   <div className="mt-auto pt-6">
