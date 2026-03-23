@@ -179,6 +179,36 @@ export default function Services() {
                         AI Deck Studio →
                       </a>
                     )}
+                    {service.id === 's2' && (
+                      <a 
+                        href="https://drive.google.com/file/d/1HFLRwpGlTD0m5fXo_Uaneo0QmUNFxdv8/view?usp=drivesdk" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="mt-4 w-full flex items-center justify-center gap-2 py-3 rounded-xl font-mono text-xs uppercase tracking-widest transition-all duration-300 bg-white/5 text-white hover:bg-white/10 border border-white/10 hover:border-white/30"
+                      >
+                        AI Thumb Shot →
+                      </a>
+                    )}
+                    {service.id === 'c2' && (
+                      <a 
+                        href="https://drive.google.com/drive/folders/13tfizLFg4z5PlUJiqyRA7meKpv58wYWo" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="mt-4 w-full flex items-center justify-center gap-2 py-3 rounded-xl font-mono text-xs uppercase tracking-widest transition-all duration-300 bg-white/5 text-white hover:bg-white/10 border border-white/10 hover:border-white/30"
+                      >
+                        AI Video Forge →
+                      </a>
+                    )}
+                    {service.id === 'w1' && (
+                      <a 
+                        href="https://drive.google.com/drive/folders/1m1m56zWkTSNcvKvvz5PW-6x5PJ6G707s" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="mt-4 w-full flex items-center justify-center gap-2 py-3 rounded-xl font-mono text-xs uppercase tracking-widest transition-all duration-300 bg-white/5 text-white hover:bg-white/10 border border-white/10 hover:border-white/30"
+                      >
+                        AI Screen Design →
+                      </a>
+                    )}
                   </div>
                   
                   <div className="mt-auto pt-6">
