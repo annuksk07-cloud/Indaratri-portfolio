@@ -29,7 +29,7 @@ export default function Footer() {
               <span className="sr-only">Instagram</span>
             </a>
             <a 
-              href="https://www.linkedin.com/in/indratree-kumari-8675123b4" 
+              href="https://www.linkedin.com/in/indratree-kreations-8675123b4" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted hover:text-purple transition-colors p-2 rounded-full hover:bg-white/5"

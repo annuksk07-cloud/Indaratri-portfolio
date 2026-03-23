@@ -47,7 +47,7 @@ export default function Hero() {
             className="inline-block px-4 py-1.5 rounded-full border border-white/10 bg-white/5 backdrop-blur-sm mb-8"
           >
             <span className="font-mono text-xs md:text-sm uppercase tracking-widest text-muted">
-              Creative Designer & AI Specialist
+              Creative Designer & Visual Designer & AI Content Creator
             </span>
           </div>
 
@@ -93,7 +93,7 @@ export default function Hero() {
               <span className="sr-only">Instagram</span>
             </a>
             <a 
-              href="https://www.linkedin.com/in/indratree-kumari-8675123b4" 
+              href="https://www.linkedin.com/in/indratree-kreations-8675123b4" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted hover:text-purple transition-colors p-2 rounded-full hover:bg-white/5"

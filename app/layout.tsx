@@ -21,7 +21,7 @@ const spaceMono = Space_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Indratree | Creative Designer & AI Specialist',
+  title: 'Indratree | Creative Designer & Visual Designer & AI Content Creator',
   description: 'Portfolio of Indratree, a freelance designer and AI creative specialist based in India.',
 };
 
